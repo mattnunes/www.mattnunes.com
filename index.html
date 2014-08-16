@@ -1,74 +1,162 @@
-<doctype html>
+<!doctype html>
 	<html>
 	<head>
 		<title>MattNunes.com</title>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js">
-
-		<style>
-			.starter-template {
-				padding: 90px 15px 40px 15px;
-				text-align: center;
-			}
-			.starter-template p {
-				max-width: 600px;
-				margin: 0px auto;
-			}
-
-			/* Wrapper for page content to push down footer */
-			#wrap {
-				min-height: 100%;
-				height: auto;
-				/* Negative indent footer by its height */
-				margin: 0 auto -60px;
-				/* Pad bottom by footer height */
-				padding: 0 0 60px;
-			}
-
-			/* Set the fixed height of the footer here */
-			#footer {
-				height: 60px;
-				background-color: #f5f5f5;
-			}
-
-			#footer .container {
-				width: auto;
-				max-width: 680px;
-				padding: 0 15px;
-			}
-
-			#footer .container .text-muted {
-				margin: 20px 0;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="cover.css">
 	</head>
-	<body>
+  <body>
 
-		<div id="wrap">		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">Matthew Nunes</a>
+	<div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix">
+					<div class="inner">
+						<h3 class="masthead-brand">Matt Nunes</h3>
+						<ul class="nav masthead-nav">
+							<li class="active"><a id="home-button" href="#home" data-toggle="tab">Home</a></li>
+							<li><a id="resume-button" href="#résumé" data-toggle="tab">Résumé</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-					</ul>
+
+				<div class="inner cover tab-content">
+					<div class="tab-pane fade in active" id="home">
+						<h1 class="cover-heading">(Software <span class="text-muted">|Cocoa|Touch|</span> Developer)</h1>
+						<p class="lead">Experienced in developing network-backed, data-driven, and responsive <span class="no-break">Mac OS X</span> and iOS apps across different industries and customer bases.</p>
+						<p class="lead text-muted">...amongst other things...</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg btn-default">Learn more</a>
+						</p>
+					</div>
+					<div class="tab-pane fade" id="résumé">
+						<h3>Skillset</h3>
+						<p>Comfortable and conversant with Objective-C, the Mac OS X SDK, the iOS SDK, iPhone and iPad design paradigms, and communicating with web services over HTTP(S); OCUnit/XCTest unit testing; Node.JS, Ruby, Ruby on Rails; HTML/HTML5, CSS/CSS3, JavaScript; MongoDB, sqlite3, MySQL; designing and implementing RESTful interfaces; Regular Expressions; Apache HTTPD configuration; DNS. Some experience with cocos2d for iOS, C, C++, Java/C#, Perl, and Common Lisp. Very comfortable with Mac OS, Linux, and command-line tools. Experienced in Agile development methodology, Scrum, Git, Jira, Confluence, Bamboo, TargetProcess.</p>
+						<p>Conversationally fluent in French.</p>
+
+						<h3>Education</h3>
+							<ul>
+								<li>Bachelor of Arts <em>(June 2011)</em>, <a href="http://www.bennington.edu">Bennington College</a>, <a href="http://www.bennington.com/">Bennington, Vermont, USA</a></li>
+								<ul><li>Concentrations in Computer Science, Biology, French Literature</li></ul></li>
+								<li>High School Diploma <em>(June 2007)</em>, <a href="http://www.lincolnlions.org/">Lincoln High School</a>, <a href="http://www.lincolnri.com/">Lincoln, Rhode Island, USA</a></li>
+							</ul>
+							
+						<h3>Work Experience</h3>
+
+						<article class="job">
+							<header>
+								<div class="right time-period">
+									<date>August 2013</date> &mdash; <date>Present</date>
+								</div>
+								<div class="left">
+									<span class="title">Software Engineer</span>,
+									<a class="company" href="http://www.pixsystem.com/">PIX System LLC</a>,
+									<addr>San Francisco, CA</addr>
+								</div>
+							</header>
+							<section>
+								<ul>
+									<li>Working on native iOS and Mac OS X products as part of a small "Cocoa" team</li>
+									<li>Maintaining currently shipped apps, adding security improvements and new features</li>
+									<li>Contributing to next generation of iOS and Mac products, as well as to a single unified "Foundation" framework for shared code between iOS and Mac clients</li>
+									<li>Participated in a deep-dive exploration of AVFoundation framework for streaming video playback on iOS7 and OS X 10.9 and the feasibility of proprietary playback protection</li>
+									<li>Experience with DRM, video streaming, video playback, file encryption, and distributed build systems.</li>
+								</ul>
+							</section>
+						</article>
+
+						<article class="job">
+							<header>
+								<div class="right time-period">
+									<date>July 2011</date> &mdash; <date>July 2013</date>
+								</div>
+								<div class="left">
+									<span class="title">Mobile Developer</span>,
+									<a class="company" href="http://www.mobiquityinc.com/">Mobiquity, Inc</a>,
+									<addr>Providence, RI</addr>
+								</div>
+							</header>
+							<section>
+								<ul>
+									<li>Developed for native iOS, native Mac OS X, PhoneGap, and back-end server</li>
+									<li>Often served cross-platform on a single project (mostly Mac/iOS and Node.js)</li>
+									<li>Worked closely with other developers, UX/UI designers, QA engineers, tech leads, clients, and client development teams using "agile" methodologies</li>
+									<li>Developed software for several different industries, requiring picking up new technologies, standards, and requirements quickly</li>
+									<li>Led several development teams</li>
+								</ul>
+							</section>
+						</article>
+
+						<article class="job">
+							<header>
+								<div class="right time-period">
+									<date>December 2010</date> &mdash; <date>July 2011</date>
+								</div>
+								<div class="left">
+									<span class="title">Web Developer</span>,
+									<a class="company" href="http://www.konnessi.com/">Konnessi, LLC</a>,
+									<addr>Providence, RI</addr>
+								</div>
+							</header>
+							<section>
+								<ul>
+									<li>Implemented a variety of public websites and web apps for customers across a broad base of industries</li>
+									<li>Handled requirements gathering, task generation, time estimating, management of the development process, testing, and delivery</li>
+									<li>(Begrudgingly) Served as the in-house IT expert, managing the internal network and company computers</li>
+									<li>Instituted and maintained an in-house Windows and later Linux development server</li>
+									<li>Managed client hosting accounts and email-forwarding</li>
+									<li>Attended client meetings and provided customer support.</li>
+								</ul>
+							</section>
+						</article>
+
+						<article class="job">
+							<header>
+								<div class="right time-period">
+									<date>2005</date> &mdash; <date>July 2012</date>
+								</div>
+								<div class="left">
+									<span class="title">Locomotive Engineer</span>,
+									<a class="company" href="http://www.ocnrr.com/">Old Colony &amp; Newport Railway</a>,
+									<addr>Newport, RI</addr>
+								</div>
+							</header>
+							<section>
+								<ul>
+									<li>Trained and qualified as a railroad brakeman, responsible for boarding and detraining passengers, delivering safety speeches, terminal brake tests to FRA standards, protecting rearwards movements, and flagging crossings</li>
+									<li>Trained as a railroad conductor, responsible for the safe movement of trains, coordinating the schedule, narrating to passengers, and overseeing other crew members</li>
+									<li>Trained and qualified as a locomotive engineer, responsible for controlling the locomotive on revenue passenger trains and work trains as well as training other crew members on the safe operation and maintenance of diesel locomotives.</li>
+								</ul>
+							</section>
+						</article>
+
+						<h3>References</h3>
+						<p>Available upon request.</p>
+
+					</div>
+				</div>
+
+				<div class="mastfoot">
+					<div class="inner">
+						<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="starter-template">
-				<h1>New Website Coming Soon</h1>
-				<p class="lead">The transition to a new web host and domain name registrar has inspired me redesign my (now 3-year-old) website. Until then, email me at</p>
-				<p class="lead"><a href="mailto:matt@mattnunes.com">matt@mattnunes.com</a></p>
-			</div>
-		</div></div>
+	</div>
 
-		<div id="footer">
-			<div class="container">
-				<p class="text-muted">Built with <a href="http://getbootstrap.com">Bootstrap</a> and <a href="http://http://www.bootstrapcdn.com/">Bootstrap CDN</a> | &copy; 2013 Matthew Nunes</p>
-			</div>
-		</div>
-	</body>
-	</html>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	    $('#home .btn').click(function(e){
+	    	e && e.preventDefault();
+	    	$('#resume-button').click();
+	    });
+    </script>
+  </body>
+</html>
